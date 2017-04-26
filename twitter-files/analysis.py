@@ -13,4 +13,4 @@ input_file = twitter_samples.abspath(jsonfile) #returns system /usr/share/ path
 #think about the attributes to be imported, convert to panda, make a dataframe, apply stemming to tweet texts, save them. 
 with open(input_file) as fp:
 	json2csv(fp, 'tweets_dataframe.csv',['id','text','user.favourites_count','user.id','lang','user.followers_count','user.verified','truncated'])
-
+#json, csv
