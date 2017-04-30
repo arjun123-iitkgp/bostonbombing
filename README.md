@@ -2,6 +2,7 @@
 Getting started with Twitter data analysis.
 <h1>Stopwords Removal</h1>
 <ul>
+<li>The concerned notebook is "StopWordRemoval.ipynb". </li>
 <li>The stopwords present in nltk toolkit were not enough in for the tweet texts because of the presence of slang words.</li>
 <li>So, I used a specialised repository <a href="https://sites.google.com/site/iamgongwei/home/sw">from here.</a>. It is that repo present as Stopwords in this project.</li>
 <li>Added all stopwords from the repo in a set. Removed from the original dataset.</li>
@@ -10,6 +11,11 @@ Getting started with Twitter data analysis.
 <li>Follwing this I tried to remove the @tags, when I realised that I removed stopwords from the dataset without making the text to lowercase (as the stopwords were lowercase.)</li>
 <li>Went back to RemoveStopwords.ipynb, changed all tweets to lowercase and removed stopwords again.</li>
 <li>Then, in Remove@Tags.ipynb, removed @tags, this time I made sure my regex doesn't miss various cases. </li>
+<li>All the changes are overwritten in the original file "tweets_dataframe.csv."
 </ul>
 
+<ul>WordMatrix</ul>
+<li>Concerned Jupyter Notebook: "WordMatrix.ipynb"</li>
+<li>Although the wordmatrix is finally saved in "wordmatrix.csv", it is present as default dictionary in the notebook.</li>
+</ul>
 
