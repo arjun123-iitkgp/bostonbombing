@@ -14,8 +14,10 @@ Getting started with Twitter data analysis.
 <li>All the changes are overwritten in the original file "tweets_dataframe.csv."
 </ul>
 
-<ul>WordMatrix</ul>
+<h1>WordMatrix</h1>
+<ul>
 <li>Concerned Jupyter Notebook: "WordMatrix.ipynb"</li>
 <li>Although the wordmatrix is finally saved in "wordmatrix.csv", it is present as default dictionary in the notebook.</li>
+<li> The matrix obtained here is very sparse, obviously.</li>
 </ul>
 
