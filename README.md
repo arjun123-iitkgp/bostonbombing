@@ -25,5 +25,7 @@ Getting started with Twitter data analysis.
 <ul>
 <li>Thought a lot about why should I do it. Then I analyzed it, as shown in wordmatrix.ipynb, and it helps.</li>
 <li>Thuogh, I have not made the changes in original tweet texts of 'tweets_dataframe.csv'</li>
+<li>The words in the index of 'wordmatrix.csv' are now in the order of their frequency in the dataset i.e. more frequent words appears above less frequent words in the csv file.</li>
+<li>Appropriately, the matrix results are also displayed in the similar manner.</li>
 </ul>
 
