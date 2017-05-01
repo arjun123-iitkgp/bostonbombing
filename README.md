@@ -21,3 +21,9 @@ Getting started with Twitter data analysis.
 <li> The matrix obtained here is very sparse, obviously.</li>
 </ul>
 
+<h1>Stemming</h1>
+<ul>
+<li>Thought a lot about why should I do it. Then I analyzed it, as shown in wordmatrix.ipynb, and it helps.</li>
+<li>Thuogh, I have not made the changes in original tweet texts of 'tweets_dataframe.csv'</li>
+</ul>
+
