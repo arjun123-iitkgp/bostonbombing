@@ -1,5 +1,12 @@
 # twitter-data-analysis
 Getting started with Twitter data analysis.
+<h1>Jupyter Notebooks</h1>
+<ul>
+<li><b>StopwordsRemoval.ipynb</b>: Stopwords are removed in this notebook. Look StopWords Removal heading for details. Changes saved in 'tweets_dataframe.csv'</li>
+<li><b>Remove@tags.ipynb</b>: The @ tags of twitter are removed in this. Also, the links present in the tweets are seperated, saved in csv. Changes saved in 'tweets_dataframe.csv' </li>
+<li><b>WordMatrix.ipynb</b>: Stemming performed and a matrix, a dictionary formed denoting the unique words and their frequency in dataset. The resultant matrix: [No. of unique words][Tweet Nos] is also saved in the form of 'wordmatrix.csv' file. The words appear in order of their frequency. I analysed and found that stemming helps in calculating more accurate word frequencies as shown in the notebook. This also reduces the size of wordmatrix and it's spareseness.</li>
+</ul>
+
 <h1>Stopwords Removal</h1>
 <ul>
 <li>The concerned notebook is "StopWordRemoval.ipynb". </li>
