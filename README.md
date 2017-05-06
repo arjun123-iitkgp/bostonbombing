@@ -30,6 +30,7 @@ Getting started with Twitter data analysis.
 
 <h1>Stemming</h1>
 <ul>
+<li>Used more powerful stemmer than PorterStemmer.</li>
 <li>Thought a lot about why should I do it. Then I analyzed it, as shown in wordmatrix.ipynb, and it helps.</li>
 <li>Thuogh, I have not made the changes in original tweet texts of 'tweets_dataframe.csv'</li>
 <li>The words in the index of 'wordmatrix.csv' are now in the order of their frequency in the dataset i.e. more frequent words appears above less frequent words in the csv file.</li>
