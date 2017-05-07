@@ -43,12 +43,11 @@ Getting started with Twitter data analysis.
 <ul>
 <li>Used the wordmatrix created earlier to perform TF-IDF calculation.</li>
 <li>Instead of doing it in 2 steps, I have performed it directly over the wordmatrix using this formula:</li>
-TFIDF[i,j] = ( Ni,j / N*,j ) * log( D / Di )
-#Ni,j = the number of times word i appears in document j (the original cell count).
-#N*,j = the number of total words in document j (just add the counts in column j).
-#D = the number of documents (the number of columns).
-#Di = the number of documents in which word i appears (the number of non-zero columns in row i).
-
+<li><b>TFIDF[i,j] = ( Ni,j / N*,j ) * log( D / Di )</b></li>
+<li>#Ni,j = the number of times word i appears in document j (the original cell count).</li>
+<li>#N*,j = the number of total words in document j (just add the counts in column j).</li>
+<li>#D = the number of documents (the number of columns).</li>
+<li>#Di = the number of documents in which word i appears (the number of non-zero columns in row i).</li>
 <li>Took care of corner cases e.g when denominators can be zero.</li>
 <li>Created a dataframe from the tfidf matrix and saved the matrix as <b>tfidf.csv</b>.</li>
 </ul>
