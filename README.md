@@ -12,6 +12,9 @@ These instructions will get you a copy of the project up and running on your loc
 <li>Open "TweetClustering.ipynb".</li>
 </ul>
 
+## KMeans (Clusters=25)
+![KMeans REsult](Kmeans.png?raw=true "Kmeans with 25 Clusters.")
+
 ### Prerequisites
 <ul>
 <li>Jupyter notebook</li>
@@ -30,11 +33,11 @@ Use conda or pip to install the requirements.
 
 ## Authors
 
-* **Mradul Dubey** - *Project* - [MradulDubey](https://github.com/mraduldubey)
+* **Mradul Dubey** - *Twitter Data Analysis* - [MradulDubey](https://github.com/mraduldubey)
 
 ## License
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE License - see the [LICENSE.md](LICENSE.md?raw=true "LICENSE") file for details.
 
 ## Acknowledgments
 
